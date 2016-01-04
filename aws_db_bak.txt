@@ -1,0 +1,11 @@
+ssh to AWS:
+ssh -i $HKEY ec2-user@sally.hdmtech.net
+
+cd bak
+mkdir jzbak_12_14
+cd jzbak_12_14/
+aws s3 cp s3://amv-dev-backups/sally/sally_bak_2015-12-14T16:00:01 . --recursive
+tar -czf jzbak_12_14.tar.gz jzbak_12_14/
+
+copy to local dir:
+scp -i $HKEY ec2-user@sally.hdmtech.net:bak/jzbak_121415.tar.gz .
