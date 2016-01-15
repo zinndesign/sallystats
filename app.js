@@ -19,66 +19,73 @@ restore.on('exit', function(exitCode){
 	console.log('Restore completed, exit code:', exitCode);
 
 	MongoClient.connect('mongodb://localhost:27017/sally', function(err, db) {
-		if (db) {
-			var articles = db.collection('articles');
-			var queryResults = [];
+		var promise = new Promise(function(resolve, reject) {
+			if (db) {
+				var articles = db.collection('articles');
 
-			// grab all articles with a createdAt property
-			var cursor = articles.find({createdAt: {$ne: null}}).addCursorFlag('noCursorTimeout', true);
+				// grab all articles with a createdAt property
+				var cursor = articles.find({createdAt: {$ne: null}}).addCursorFlag('noCursorTimeout', true);
 
-			cursor.count(function(err, count) {
-				var savesPending = count;
-				console.log("articles to update:", count);
 
-				var saveFinished = function(){
-					savesPending--;
-					if(savesPending == 0){
-						eventEmitter.emit('ready to query');
-					}
-				};
+				cursor.count(function(err, count) {
+					var savesPending = count;
+					console.log("articles to update:", count);
 
-				cursor.each(function (err, doc) {
-					if(doc != null) {
-						var noMS = doc.createdAt;
-						if (noMS instanceof Date === false && noMS != null) {
-							var ISODate = new Date(noMS.replace('Z', '.000Z'));
-							articles.updateOne({_id: doc._id}, {$set: {createdAt: ISODate}}, function (err, result) {
-								if (err) {
-									console.log("Update failed:", err);
-								}
-								if (result) {
-									saveFinished();
-								}
-							});
-						} else { // in case ISODate format was already in place
-							saveFinished();
+					var saveFinished = function(){
+						savesPending--;
+						if(savesPending == 0){
+							resolve(articles);
+							//eventEmitter.emit('ready to query');
 						}
-					}
-				});
-			});
+					};
 
-		} else {
-			console.log('Unable to connect to the mongoDB server. Error:', err);
-		}
+					cursor.each(function (err, doc) {
+						if(doc != null) {
+							var noMS = doc.createdAt;
+							if (noMS instanceof Date === false && noMS != null) {
+								var ISODate = new Date(noMS.replace('Z', '.000Z'));
+								articles.updateOne({_id: doc._id}, {$set: {createdAt: ISODate}}, function (err, result) {
+									if (err) {
+										reject(Error("Update failed: " + err));
+									}
+									if (result) {
+										saveFinished();
+									}
+								});
+							} else { // in case ISODate format was already in place
+								saveFinished();
+							}
+						}
+					});
+				});
+
+
+			} else {
+				reject(Error(err));
+			}
+
+		});
+
 
 		// CUSTOM EVENTS
 		// run queries
-		eventEmitter.on('ready to query', function() {
+		promise.then(function(collection) {
 			console.log('running queries');
 
-			var queryArray = [allDates, thisWeek(reportWeek)];
-			var queriesPending = queryArray.length;
+			var queryArray = [allDates, thisWeek(reportWeek)],
+				queriesPending = queryArray.length,
+				queryResults = [];
 
 			var queryComplete = function(){
 				queriesPending--;
 				if(queriesPending == 0){
-					eventEmitter.emit('complete');
+					eventEmitter.emit('complete', queryResults);
 				}
 			};
 
 			(function(arr) {
 				for(var i = 0, count = arr.length; i < count; i++) {
-					articles.aggregate(arr[i], function(err, result){
+					collection.aggregate(arr[i], function(err, result){
 						if (err) {
 							console.log("Query failed:", err);
 						}
@@ -89,10 +96,12 @@ restore.on('exit', function(exitCode){
 					});
 				}
 			})(queryArray);
+		}, function(err) {
+			console.log(err);
 		});
 
 		// format for display
-		eventEmitter.on('complete', function() {
+		eventEmitter.on('complete', function(queryResults) {
 			console.log(queryResults);
 			console.log(Object.getOwnPropertyNames(queryResults[1][0]));
 			db.close();

@@ -1,3 +1,4 @@
+VIA SSH (old):
 ssh to AWS:
 ssh -i $HKEY ec2-user@sally.hdmtech.net
 
@@ -9,3 +10,8 @@ tar -czf jzbak_12_14.tar.gz jzbak_12_14/
 
 copy to local dir:
 scp -i $HKEY ec2-user@sally.hdmtech.net:bak/jzbak_121415.tar.gz .
+
+VIA AWS CLI (better):
+aws s3 cp s3://amv-dev-backups/sally/sally_bak_2016-01-06T16:05:01/sally . --recursive
+
+^^ copies just the sally backup to the current directory
