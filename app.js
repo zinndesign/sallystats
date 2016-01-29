@@ -107,7 +107,7 @@ restore.on('exit', function(exitCode){
 			eventEmitter.emit('send email');
 		});
 
-		// send email
+		// send email - eet no wook
 		eventEmitter.on('send email', function() {
 			console.log('ready to send');
 			process.exit(0);
