@@ -9,10 +9,6 @@
 		"start": "node app"
 	},
   "dependencies": {
-	"mongodb": "^2.1.0",
-	"ssh2": "^0.4.12",
-	"nodemailer": "^1.11.0",
-	"nodemailer-smtp-transport": "^1.1.0",
-	"xoauth2": "^1.1.0"
+	"mongodb": "^2.1.0"
   }
 }
