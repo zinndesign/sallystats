@@ -59,7 +59,6 @@ restore.on('exit', function(exitCode){
 					});
 				});
 
-
 			} else {
 				reject(Error(err));
 			}
@@ -68,7 +67,7 @@ restore.on('exit', function(exitCode){
 
 
 		// CUSTOM EVENTS
-		// run queries
+		// run queries if promise for updating DB resolves
 		promise.then(function(collection) {
 			console.log('running queries');
 
