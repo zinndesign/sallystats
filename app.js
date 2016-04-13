@@ -13,7 +13,7 @@ console.log('args:',args[0]);
 var reportWeek = new Date(2015, 11, 1);
 
 // assumes we have downloaded the remote mongodump backup
-var restore = spawn('mongorestore', ['-d', 'sally', 'dump/sally']); // '--drop',
+var restore = spawn('mongorestore', ['--verbose', '--drop', '-d', 'sally', 'dump/sally']); // '--drop',
 
 restore.on('exit', function(exitCode){
 	console.log('Restore completed, exit code:', exitCode);
