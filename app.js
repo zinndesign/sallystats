@@ -10,7 +10,19 @@ var eventEmitter = new events.EventEmitter();
 // grab the date passed in, or set to today
 var args = process.argv.slice(2);
 console.log('args:',args[0]);
-var reportWeek = new Date(2015, 11, 1);
+
+// for now, let's assume format YYYYMMDD
+// todo: validation and error check
+var dateStr = args[0],
+	reportWeek;
+
+if(typeof dateStr === 'undefined') {
+	reportWeek = new Date();
+} else {
+	// remember that months for JS are zero-based - e.g. January = 0. DERP!
+	reportWeek = new Date(dateStr.substr(0,4), dateStr.substr(4,2) - 1, dateStr.substr(6,2));
+}
+console.log('report week', reportWeek);
 
 // assumes we have downloaded the remote mongodump backup
 var restore = spawn('mongorestore', ['--verbose', '--drop', '-d', 'sally', 'dump/sally']); // '--drop',
