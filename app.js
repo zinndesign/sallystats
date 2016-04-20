@@ -113,8 +113,9 @@ restore.on('exit', function(exitCode){
 
 		// format for display
 		eventEmitter.on('complete', function(queryResults) {
+			console.log('start date', weekStart(reportWeek));
 			console.log(queryResults);
-			console.log(Object.getOwnPropertyNames(queryResults[1][0]));
+			//console.log(Object.getOwnPropertyNames(queryResults[1][0]));
 			db.close();
 			eventEmitter.emit('send email');
 		});
