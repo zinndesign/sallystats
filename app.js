@@ -114,7 +114,7 @@ restore.on('exit', function(exitCode){
 		// format for display
 		eventEmitter.on('complete', function(queryResults) {
 			console.log('start date', weekStart(reportWeek));
-			console.log(queryResults);
+			console.log(queryResults[0]);
 			//console.log(Object.getOwnPropertyNames(queryResults[1][0]));
 			db.close();
 			eventEmitter.emit('send email');
@@ -132,7 +132,7 @@ restore.on('exit', function(exitCode){
 var allDates = [
 	{
 		$match: {
-			"raw.siteCode": {$nin: ['cosuk','dsuk',null]},
+			"raw.siteCode": {$in: ['cos','del','esq','lnl','mac']},
 			channelId: {$nin: [
 				'463ede6a-1992-4d35-be60-884f8d8b502e', // sandboxes
 				'4a2fecfd-f2bf-4002-adaa-f9c1b9febcb9',
@@ -180,7 +180,7 @@ var thisWeek = function(date) {
 	return [
 		{
 			$match: {
-				"raw.siteCode": {$nin: ['cosuk','dsuk',null]},
+				"raw.siteCode": {$in: ['cos','del','esq','lnl','mac']},
 				channelId: {$nin: [
 					'463ede6a-1992-4d35-be60-884f8d8b502e', // sandboxes
 					'4a2fecfd-f2bf-4002-adaa-f9c1b9febcb9',

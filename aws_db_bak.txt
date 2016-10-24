@@ -1,6 +1,6 @@
 
 ### VIA AWS CLI (better):
-aws s3 cp s3://amv-dev-backups/sally/sally_bak_2016-04-20T18:46:10/sally . --recursive
+aws s3 cp s3://amv-dev-backups/sally/sally_bak_2016-10-19T19:52:43/sally . --recursive
 
 ^^ copies just the sally backup to the current directory
 

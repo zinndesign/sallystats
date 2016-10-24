@@ -1,0 +1,665 @@
+start date Sun May 01 2016 00:00:00 GMT-0400 (EDT)
+bpc	article	1
+bpc	gallery	22
+clv	article	11
+clv	gallery	4
+cos	article	143
+cos	gallery	5
+del	article	22
+del	gallery	9
+doz	article	6
+doz	gallery	1
+
+
+ell	article	33
+ell	gallery	7
+esq	article	62
+esq	gallery	4
+ghk	article	22
+ghk	gallery	5
+hbu	article	5
+hbu	gallery	3
+hbz	article	21
+hbz	gallery	3
+lnl	article	71
+lnl	gallery	4
+
+
+pop	article	40
+pop	gallery	3
+
+
+roa	article	29
+roa	gallery	3
+sev	article	40
+
+start date Sun May 08 2016 00:00:00 GMT-0400 (EDT)
+
+bpc	gallery	17
+clv	article	15
+clv	gallery	7
+cos	article	139
+cos	gallery	12
+del	article	43
+del	gallery	9
+doz	article	6
+doz	gallery	5
+
+
+ell	article	39
+ell	gallery	3
+esq	article	72
+esq	gallery	5
+ghk	article	25
+ghk	gallery	6
+hbu	article	5
+hbu	gallery	2
+hbz	article	26
+hbz	gallery	8
+lnl	article	6
+
+
+
+pop	article	63
+pop	gallery	3
+
+
+roa	article	30
+roa	gallery	4
+sev	article	60
+sev	gallery	1
+
+start date Sun May 15 2016 00:00:00 GMT-0400 (EDT)
+bpc	article	2
+bpc	gallery	29
+clv	article	25
+clv	gallery	9
+cos	article	228
+cos	gallery	7
+del	article	37
+del	gallery	5
+doz	article	7
+doz	gallery	3
+
+
+ell	article	80
+ell	gallery	9
+esq	article	121
+esq	gallery	4
+ghk	article	23
+ghk	gallery	2
+hbu	article	6
+hbu	gallery	1
+hbz	article	39
+hbz	gallery	15
+lnl	article	5
+lnl	gallery	1
+
+
+pop	article	69
+pop	gallery	3
+
+
+roa	article	66
+roa	gallery	2
+sev	article	87
+sev	gallery	1
+
+start date Sun May 22 2016 00:00:00 GMT-0400 (EDT)
+
+bpc	gallery	20
+clv	article	23
+clv	gallery	8
+cos	article	223
+cos	gallery	9
+del	article	40
+del	gallery	5
+doz	article	9
+doz	gallery	1
+
+
+ell	article	95
+ell	gallery	11
+esq	article	106
+esq	gallery	7
+ghk	article	28
+ghk	gallery	4
+hbu	article	7
+hbu	gallery	3
+hbz	article	59
+hbz	gallery	10
+lnl	article	6
+lnl	gallery	1
+
+
+pop	article	68
+pop	gallery	2
+
+
+roa	article	64
+roa	gallery	4
+sev	article	87
+sev	gallery	1
+
+start date Sun May 29 2016 00:00:00 GMT-0400 (EDT)
+
+bpc	gallery	21
+clv	article	17
+clv	gallery	3
+cos	article	140
+cos	gallery	4
+del	article	25
+del	gallery	4
+doz	article	12
+doz	gallery	3
+
+
+ell	article	58
+ell	gallery	8
+esq	article	81
+esq	gallery	2
+ghk	article	25
+ghk	gallery	5
+hbu	article	4
+hbu	gallery	1
+hbz	article	38
+hbz	gallery	20
+lnl	article	4
+lnl	gallery	1
+
+
+pop	article	50
+pop	gallery	2
+
+
+roa	article	52
+roa	gallery	1
+sev	article	53
+
+start date Sun Jun 05 2016 00:00:00 GMT-0400 (EDT)
+
+bpc	gallery	22
+clv	article	23
+clv	gallery	11
+cos	article	218
+cos	gallery	9
+del	article	36
+del	gallery	6
+doz	article	13
+doz	gallery	3
+
+
+ell	article	84
+ell	gallery	9
+esq	article	102
+esq	gallery	3
+ghk	article	52
+ghk	gallery	8
+hbu	article	10
+hbu	gallery	2
+hbz	article	47
+hbz	gallery	16
+lnl	article	6
+lnl	gallery	1
+
+
+pop	article	67
+pop	gallery	2
+
+
+roa	article	57
+roa	gallery	4
+sev	article	88
+sev	gallery	2
+
+start date Sun Jun 12 2016 00:00:00 GMT-0400 (EDT)
+
+bpc	gallery	21
+clv	article	4
+clv	gallery	9
+cos	article	131
+cos	gallery	12
+del	article	13
+del	gallery	7
+doz	article	6
+
+
+
+ell	article	21
+ell	gallery	16
+esq	article	43
+esq	gallery	2
+ghk	article	11
+ghk	gallery	8
+hbu	article	2
+hbu	gallery	4
+hbz	article	19
+hbz	gallery	11
+lnl	article	5
+lnl	gallery	1
+
+
+pop	article	27
+pop	gallery	2
+
+
+roa	article	44
+roa	gallery	9
+sev	article	30
+sev	gallery	1
+
+start date Sun Jun 19 2016 00:00:00 GMT-0400 (EDT)
+
+bpc	gallery	21
+clv	article	17
+clv	gallery	9
+cos	article	127
+cos	gallery	7
+del	article	39
+del	gallery	11
+doz	article	2
+doz	gallery	4
+
+
+ell	article	36
+ell	gallery	15
+esq	article	49
+esq	gallery	3
+ghk	article	15
+ghk	gallery	7
+hbu	article	3
+hbu	gallery	4
+hbz	article	19
+hbz	gallery	20
+lnl	article	9
+lnl	gallery	1
+
+
+pop	article	26
+pop	gallery	3
+
+
+roa	article	68
+roa	gallery	4
+sev	article	21
+sev	gallery	3
+
+start date Sun Jun 26 2016 00:00:00 GMT-0400 (EDT)
+
+bpc	gallery	7
+clv	article	24
+clv	gallery	5
+cos	article	233
+cos	gallery	9
+del	article	56
+del	gallery	11
+doz	article	11
+doz	gallery	5
+
+
+ell	article	80
+ell	gallery	9
+esq	article	113
+esq	gallery	8
+ghk	article	37
+ghk	gallery	12
+hbu	article	5
+hbu	gallery	5
+hbz	article	54
+hbz	gallery	23
+lnl	article	7
+lnl	gallery	1
+
+
+pop	article	80
+pop	gallery	1
+
+
+roa	article	65
+roa	gallery	4
+sev	article	68
+
+start date Sun Jul 03 2016 00:00:00 GMT-0400 (EDT)
+
+bpc	gallery	15
+clv	article	14
+clv	gallery	9
+cos	article	168
+cos	gallery	6
+del	article	25
+del	gallery	7
+doz	article	4
+doz	gallery	6
+
+
+ell	article	79
+ell	gallery	26
+esq	article	72
+esq	gallery	5
+ghk	article	21
+ghk	gallery	4
+hbu	article	3
+hbu	gallery	7
+hbz	article	31
+hbz	gallery	20
+lnl	article	7
+
+
+
+pop	article	68
+pop	gallery	1
+
+
+roa	article	83
+roa	gallery	1
+sev	article	29
+
+start date Sun Jul 10 2016 00:00:00 GMT-0400 (EDT)
+
+bpc	gallery	20
+clv	article	31
+clv	gallery	15
+cos	article	189
+cos	gallery	4
+del	article	57
+del	gallery	38
+doz	article	5
+doz	gallery	1
+
+
+ell	article	89
+ell	gallery	14
+esq	article	110
+esq	gallery	7
+ghk	article	40
+ghk	gallery	5
+hbu	article	11
+hbu	gallery	4
+hbz	article	46
+hbz	gallery	26
+lnl	article	7
+lnl	gallery	1
+
+
+pop	article	88
+pop	gallery	10
+
+
+roa	article	71
+roa	gallery	4
+sev	article	48
+sev	gallery	3
+
+start date Sun Jul 17 2016 00:00:00 GMT-0400 (EDT)
+
+bpc	gallery	19
+clv	article	18
+clv	gallery	13
+cos	article	197
+cos	gallery	8
+del	article	43
+del	gallery	27
+
+
+
+
+ell	article	68
+ell	gallery	16
+esq	article	86
+esq	gallery	5
+ghk	article	27
+ghk	gallery	9
+hbu	article	11
+hbu	gallery	6
+hbz	article	52
+hbz	gallery	21
+lnl	article	5
+lnl	gallery	1
+
+
+pop	article	88
+pop	gallery	2
+
+
+roa	article	74
+roa	gallery	3
+sev	article	41
+sev	gallery	3
+  
+start date Sun Jul 24 2016 00:00:00 GMT-0400 (EDT)
+
+bpc	gallery	26
+clv	article	17
+clv	gallery	8
+cos	article	173
+cos	gallery	5
+del	article	32
+del	gallery	6
+
+
+
+
+ell	article	74
+ell	gallery	16
+esq	article	100
+esq	gallery	2
+ghk	article	28
+ghk	gallery	6
+hbu	article	2
+hbu	gallery	9
+hbz	article	38
+hbz	gallery	29
+lnl	article	10
+lnl	gallery	1
+
+
+pop	article	78
+pop	gallery	5
+
+
+roa	article	73
+roa	gallery	3
+sev	article	47
+sev	gallery	2
+  
+start date Sun Jul 31 2016 00:00:00 GMT-0400 (EDT)
+
+bpc	gallery	27
+clv	article	18
+clv	gallery	9
+cos	article	124
+cos	gallery	5
+del	article	41
+del	gallery	9
+
+
+
+
+ell	article	71
+ell	gallery	13
+esq	article	108
+esq	gallery	1
+ghk	article	29
+ghk	gallery	6
+hbu	article	4
+hbu	gallery	4
+hbz	article	38
+hbz	gallery	18
+lnl	article	8
+
+
+
+pop	article	77
+pop	gallery	5
+
+
+roa	article	76
+roa	gallery	7
+sev	article	48
+sev	gallery	2
+  
+start date Sun Aug 07 2016 00:00:00 GMT-0400 (EDT)
+
+bpc	gallery	19
+clv	article	23
+clv	gallery	7
+cos	article	189
+cos	gallery	18
+del	article	46
+del	gallery	7
+doz	article	4
+doz	gallery	1
+
+
+ell	article	92
+ell	gallery	14
+esq	article	115
+esq	gallery	8
+ghk	article	31
+ghk	gallery	5
+hbu	article	5
+hbu	gallery	6
+hbz	article	32
+hbz	gallery	15
+lnl	article	6
+lnl	gallery	1
+
+
+pop	article	66
+pop	gallery	4
+
+
+roa	article	109
+roa	gallery	3
+sev	article	53
+sev	gallery	2
+  
+start date Sun Aug 14 2016 00:00:00 GMT-0400 (EDT)
+
+
+clv	article	4
+
+cos	article	60
+cos	gallery	5
+del	article	26
+del	gallery	10
+
+
+
+
+ell	article	8
+ell	gallery	3
+esq	article	64
+esq	gallery	5
+ghk	article	4
+
+
+
+hbz	article	6
+hbz	gallery	1
+lnl	article	5
+lnl	gallery	1
+  
+start date Sun Aug 21 2016 00:00:00 GMT-0400 (EDT)
+bpc	article	1
+bpc	gallery	7
+clv	article	5
+clv	gallery	1
+cos	article	175
+cos	gallery	5
+del	article	38
+del	gallery	15
+
+
+
+
+ell	article	1
+ell	gallery	1
+esq	article	139
+esq	gallery	6
+ghk	article	1
+
+
+
+
+hbz	gallery	1
+lnl	article	6
+  
+start date Sun Aug 28 2016 00:00:00 GMT-0400 (EDT)
+cos	article	176
+cos	gallery	9
+del	article	43
+del	gallery	5
+esq	article	139
+esq	gallery	8
+lnl	article	4
+lnl	gallery	1
+  
+start date Sun Sep 04 2016 00:00:00 GMT-0400 (EDT)
+cos	article	128
+cos	gallery	1
+del	article	36
+del	gallery	5
+esq	article	116
+esq	gallery	5
+lnl	article	3
+lnl	gallery	1
+  
+start date Sun Sep 11 2016 00:00:00 GMT-0400 (EDT)
+cos	article	99
+cos	gallery	6
+del	article	54
+del	gallery	12
+esq	article	156
+esq	gallery	11
+lnl	article	7
+lnl	gallery	1
+mac	article	102
+mac	gallery	15
+  
+start date Sun Sep 18 2016 00:00:00 GMT-0400 (EDT)
+cos	article	137
+cos	gallery	4
+del	article	46
+del	gallery	14
+esq	article	126
+esq	gallery	8
+lnl	article	8
+mac	article	47
+mac	gallery	19
+  
+start date Sun Sep 25 2016 00:00:00 GMT-0400 (EDT)
+cos	article	126
+cos	gallery	5
+del	article	33
+del	gallery	7
+esq	article	109
+esq	gallery	6
+lnl	article	1
+lnl	gallery	2
+mac	article	36
+mac	gallery	8
+  
+start date Sun Oct 02 2016 00:00:00 GMT-0400 (EDT)
+cos	article	140
+cos	gallery	9
+del	article	44
+del	gallery	8
+esq	article	121
+esq	gallery	4
+lnl	article	10
+
+mac	article	44
+mac	gallery	10
+  
+start date Sun Oct 09 2016 00:00:00 GMT-0400 (EDT)
+cos	article	168
+cos	gallery	4
+del	article	40
+del	gallery	14
+esq	article	113
+esq	gallery	7
+lnl	article	7
+lnl	gallery	2
+mac	article	46
+mac	gallery	15
